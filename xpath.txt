@@ -1,1 +1,5 @@
 Links = //div[@class="V_Title"]/h2/a/@href
+Title = //div[@class="mb-auto"]/h2/a[@class="economiaSect"]/text()
+Summary = //div[@class="lead"]/p/text()
+Body = //div[@class="html-content"]/p/text() or //div[@class="html-content"]/p[not(@class)]/text()
+autor = //div[@class="autorArticule"]/p/text()
